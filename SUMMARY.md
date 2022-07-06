@@ -2,12 +2,8 @@
 
 * [Theory Library](README.md)
 
-## The Company
+## 对战机制 <a href="#combat-mechanics" id="combat-mechanics"></a>
 
-* [Vision and Values](the-company/vision-and-values.md)
-* [Meet the Team!](the-company/meet-the-team.md)
-
-## The Formal Stuff
-
-* [Requesting Time Off](the-formal-stuff/requesting-time-off.md)
-* [Filing Expenses](the-formal-stuff/filing-expenses.md)
+* [伤害](combat-mechanics/damage/README.md)
+  * [基本伤害计算方式](combat-mechanics/damage/ji-ben-shang-hai-ji-suan-fang-shi.md)
+* [Filing Expenses](combat-mechanics/filing-expenses.md)
