@@ -5,7 +5,7 @@
 
 
 $$
-DamageExp = (BaseDamage \cdot SpecialTalentAmplify+ OtherBaseDamage) \\ \cdot (1+CritRate \cdot CritDmg)\cdot (1+DamageBonus) \cdot  AmplifyReactionMult 
+DamageExp = (BaseDamage \cdot SpecialTalentMult +OtherBaseDamage) \\ \cdot (1+CritRate \cdot CritDmg)\cdot (1+DamageBonus) \cdot  AmplifyReactionMult 
 \\ \cdot EnemyDefMult \cdot EnemyResMult
 $$
 
