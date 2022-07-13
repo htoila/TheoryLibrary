@@ -5,29 +5,36 @@
 
 
 $$
-DamageExp = (BaseDamage \cdot SpecialTalentMult +OtherBaseDamage) \\ \cdot (1+CritRate \cdot CritDmg)\cdot (1+DamageBonus) \cdot  AmplifyReactionMult 
+DamageExp = BaseDamage \\ \cdot (1+CritRate \cdot CritDmg)\cdot (1+DamageBonus) \cdot  AmplifyReactionMult 
 \\ \cdot EnemyDefMult \cdot EnemyResMult
 $$
 
 ### ​基础伤害 BaseDamage
 
+#### 角色本身倍率提供
+
 $$
 BaseDamage = ATK \cdot TalentRate+HP \cdot TalentRate+Def\cdot TalentRate
 $$
 
-​默认情况下按照攻击力，部分按照最大生命值（夜兰），部分按照防御（阿贝多E）
+​默认情况下按照攻击力，部分按照最大生命值（夜兰），部分按照防御（阿贝多E）等
 
 少数角色天赋可以受到到多种方式加成，如钟离(同时收到攻击力和最大生命加成)
 
 #### 特殊天赋加成 SpecialTalentMult
 
-仅有少数角色具有该天赋，宵宫E、行秋4命等
+仅有少数角色具有该天赋，宵宫E、行秋4命等，例如宵宫在开启E后普攻倍率提供的基础伤害\*(1+提高百分比）
 
 #### 其他基础伤害 OtherBaseDamage
 
-适用于申鹤、云堇以及将来的激化反应
+* 将来的激化反应
+* 申鹤、云堇附加倍率&#x20;
 
-### 暴击 Crit
+激化提供的额外基础伤害
+
+$$
+1446.85 \cdot (1+ \frac{5\cdot EM}{1200+EM})
+$$
 
 ### 增伤 DamageBonus
 
@@ -81,13 +88,11 @@ $$
 
 | 反应类型 | ReactionBaseRate | 是否可以进一步参与增幅反应 |
 | ---- | ---------------- | ------------- |
-| 超载   | 4                | False         |
-| 碎冰   | 3                | False         |
-| 感电   | 2.4              | False         |
-| 扩散   | 1.2              | True          |
-| 超导   | 1                | False         |
-
-### OtherBaseDamage
+| 超载   | 2                | False         |
+| 碎冰   | 1.5              | False         |
+| 感电   | 1.2              | False         |
+| 扩散   | 0。6              | True          |
+| 超导   | 0.5              | False         |
 
 TBD,主要为将来激化反应准备
 
