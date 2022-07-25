@@ -2,7 +2,7 @@
 
 > 仅作介绍，不作论证
 >
-> [本文参考](https://ngabbs.com/read%E3%80%82php?tid=32779925)
+> [本文参考](https://ngabbs.com/read.php?tid=32779925)
 
 ### 原激化
 
@@ -33,8 +33,8 @@ $$
 
 具体伤害计算参考
 
-{% content-ref url="general-damage-formula.md" %}
-[general-damage-formula.md](general-damage-formula.md)
+{% content-ref url="ji-ben-shang-hai-ji-suan-fang-shi.md" %}
+[ji-ben-shang-hai-ji-suan-fang-shi.md](ji-ben-shang-hai-ji-suan-fang-shi.md)
 {% endcontent-ref %}
 
 超激化、蔓激化不存在cd
