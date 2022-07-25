@@ -2,7 +2,7 @@
 
 > 仅作介绍，不作论证
 >
-> [本文参考](https://ngabbs.com/read.php?tid=32779925)
+> [本文参考](https://ngabbs.com/read%E3%80%82php?tid=32779925)
 
 ### 原激化
 
