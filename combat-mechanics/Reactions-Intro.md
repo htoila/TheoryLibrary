@@ -33,8 +33,8 @@ $$
 
 具体伤害计算参考
 
-{% content-ref url="ji-ben-shang-hai-ji-suan-fang-shi.md" %}
-[ji-ben-shang-hai-ji-suan-fang-shi.md](ji-ben-shang-hai-ji-suan-fang-shi.md)
+{% content-ref url="general-damage-formula.md" %}
+[general-damage-formula.md](general-damage-formula.md)
 {% endcontent-ref %}
 
 超激化、蔓激化不存在cd
