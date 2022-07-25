@@ -33,8 +33,8 @@ $$
 
 具体伤害计算参考
 
-{% content-ref url="../damage-formula.md" %}
-[damage-formula.md](../damage-formula.md)
+{% content-ref url="damage-formula.md" %}
+[damage-formula.md](damage-formula.md)
 {% endcontent-ref %}
 
 超激化、蔓激化不存在cd
