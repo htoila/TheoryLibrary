@@ -33,7 +33,7 @@ $$
 激化提供的额外基础伤害(暂时为测试服消息，数值可能会出现更改)
 
 $$
-1446.85 \cdot (1+ \frac{5\cdot EM}{1200+EM})
+1446.85 \cdot Rate\cdot (1+ \frac{5\cdot EM}{1200+EM})
 $$
 
 ### 增伤 DamageBonus
